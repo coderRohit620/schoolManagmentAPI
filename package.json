@@ -1,0 +1,33 @@
+{
+  "name": "schoolmanagmentapi",
+  "version": "1.0.0",
+  "description": "create a backend SchoolManagmentSystem",
+  "keywords": [
+    "backend",
+    "node.js"
+  ],
+  "homepage": "https://github.com/coderRohit620/schoolManagmentAPI#readme",
+  "bugs": {
+    "url": "https://github.com/coderRohit620/schoolManagmentAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderRohit620/schoolManagmentAPI.git"
+  },
+  "license": "ISC",
+  "author": "Rohit Ravi",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
